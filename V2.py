@@ -208,23 +208,17 @@ elif st.session_state['current_page'] == 'About Us':
             "photo": "https://avatars.githubusercontent.com/u/115075229?v=4"
         },
         {
-            "name": "Sanjana Bafana",
-            "linkedin": "https://linkedin.com/in/sanjana-bafana-722720194",
-            # Replace with the actual path or URL
-            "photo": "https://avatars.githubusercontent.com/u/128772250?v=4"
-        },
-        {
-            "name": "Harshad Gaikwad",
-            "linkedin": "https://www.linkedin.com/in/harshad-gaikwad-1157511b4/",
-            # Replace with the actual path or URL
-            "photo": "https://avatars.githubusercontent.com/u/132460203?v=4"
-        },
-        {
             "name": "Nitin Diwakar",
             # Replace with the actual LinkedIn URL when available
             "linkedin": "https://www.linkedin.com/in/diwakarnitin/",
             # Replace with the actual path or URL
             "photo": "https://avatars.githubusercontent.com/u/72300414?v=4"
+        },
+        {
+            "name": "Sanjana Bafana",
+            "linkedin": "https://linkedin.com/in/sanjana-bafana-722720194",
+            # Replace with the actual path or URL
+            "photo": "https://avatars.githubusercontent.com/u/128772250?v=4"
         }
     ]
 
