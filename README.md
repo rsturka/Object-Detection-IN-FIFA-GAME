@@ -1,6 +1,6 @@
-![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
-![opencv-python](https://img.shields.io/badge/opencv-supported-blue.svg)
-![YOLOv8n](https://img.shields.io/badge/YOLOv8n-supported-blue.svg)
+![Python 3.10](https://img.shields.io/badge/Supports-python-3.10-blue.svg)
+![opencv-python](https://img.shields.io/badge/Supports-opencv-supported-blue.svg)
+![YOLOv8n](https://img.shields.io/badge/Supports-YOLOv8n-supported-blue.svg)
 ![streamlit](https://img.shields.io/badge/Supports-streamlit-black.svg)
 
 ![clip](./readme_source/clip.gif)
