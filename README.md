@@ -1,4 +1,4 @@
-![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)
+![Python 3.10](https://img.shields.io/badge/python-3.10-cyan.svg)
 ![opencv-python](https://img.shields.io/badge/Supports-opencv-blue.svg)
 ![YOLOv8n](https://img.shields.io/badge/Supports-YOLOv8n-blue.svg)
 ![streamlit](https://img.shields.io/badge/Supports-streamlit-black.svg)
