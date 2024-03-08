@@ -1,7 +1,7 @@
 ![Python 3.10](https://img.shields.io/badge/python-3.10-cyan.svg)
 ![opencv-python](https://img.shields.io/badge/Supports-OpenCV-orange.svg)
 ![YOLOv8n](https://img.shields.io/badge/Supports-YOLOv8n-orange.svg)
-![streamlit](https://img.shields.io/badge/Supports-streamlit-black.svg)
+![streamlit](https://img.shields.io/badge/Supports-Streamlit-black.svg)
 
 ![clip](./readme_source/clip.gif)
 # Object Detection in FIFA Game
