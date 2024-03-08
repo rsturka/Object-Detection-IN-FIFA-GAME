@@ -49,7 +49,3 @@ This repository is an open community project. We encourage everyone to contribut
 5. Review the changes, add a description of your updates, and click "Create pull request".
 
 We appreciate your contributions and are excited to see how this project evolves with the community's input. For any queries or discussions, please feel free to open an issue in the repository.
-
-## Contributors
-
-We value all the contributions made by our community members. Please see the [list of contributors](CONTRIBUTERS.md) who have participated in this project.
