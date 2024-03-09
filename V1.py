@@ -7,14 +7,15 @@ from ultralytics import YOLO
 
 
 # Set the page config to wide mode
-st.set_page_config(layout="wide", page_title="FIFA_Detection")
+st.set_page_config(layout="wide", page_title=" Detection | V1")
 
 # Setting color scheme and styles
-background_color = "#0B0C10"
-text_color = "#C5C6C7"
-button_color = "#66FCF1"
-button_hover_color = "#45A29E"
-header_color = "#8b8c8c"
+background_color = "#161616"
+text_color = "#d9d9d9"
+button_text_color = "#ffffff"
+button_color = "#000000"
+button_hover_color = "#3f1010"
+header_color = "#f3f3f3"
 font_family = "Arial, sans-serif"
 
 # custom setting for website
@@ -28,7 +29,7 @@ st.markdown(
     }}
     .stButton>button {{
         background-color: {button_color};
-        color: {background_color};
+        color: {button_text_color};
         border-radius: 4px;
         border: none;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -76,7 +77,7 @@ def navigate_to(page):
 
 
 # Navigation bar
-cool0, col1, col2, col3, col4 = st.columns(5)
+col0, col1, col2, col3, col4 = st.columns(5)
 with col1:
     st.button('Home', on_click=navigate_to, args=('Home',))
 with col2:
@@ -84,12 +85,12 @@ with col2:
 with col3:
     st.button('About Us', on_click=navigate_to, args=('About Us',))
 with col4:
-    st.button('Help', on_click=navigate_to, args=('Help',))  # New Help button
+   st.button('Help', on_click=navigate_to, args=('Help',))
 
 
 # Function to display the FAQ content
 def show_faq():
-    st.subheader('Frequently Asked Questions')
+    st.subheader('Having Questions In Your Mind Here are some Explanation')
     faqs = [
         {
             "question": "What is YOLOv8 and how does it work?",
@@ -146,12 +147,19 @@ if st.session_state['current_page'] == 'Home':
 
     st.subheader('What is FIFA Game?')
 
-    st.write('''
-        FIFA is one of the most popular and enduring video game franchises in the world, 
+    st.write('''FIFA is one of the most popular and enduring video game franchises in the world, 
         allowing players to experience the excitement of football in a virtual format. 
         It features realistic gameplay, detailed graphics, and licenses with top football leagues 
         and teams around the globe, making it a favorite among fans of the sport.
-    ''')
+
+FIFA is a discontinued football video game franchise developed by EA Vancouver and EA Romania
+        and published by EA Sports. As of 2011, the FIFA franchise has been localized into 18 languages
+        and available in 51 countries. Listed in Guinness World Records as the best-selling sports video
+        game franchise in the world, the FIFA series has sold over 325 million copies as of 2021. On 10 May 2022,
+        it was announced that EA and FIFA's partnership of 30 years would come to an end upon the termination of
+        their licensing agreement, making FIFA 23 the last entry to the franchise under the FIFA name. As a successor
+        to the FIFA series, EA launched the EA Sports FC franchise, with EA Sports FC 24 being the first installment under the new name.''')
+    
     st.image('https://github.com/rsturka/Object-Detection-IN-FIFA-GAME/blob/master/Image/FIFA.jpg?raw=true',use_column_width=True)
    
     # Enter a some space
@@ -213,12 +221,6 @@ elif st.session_state['current_page'] == 'About Us':
             "linkedin": "https://www.linkedin.com/in/diwakarnitin/",
             # Replace with the actual path or URL
             "photo": "https://avatars.githubusercontent.com/u/72300414?v=4"
-        },
-        {
-            "name": "Sanjana Bafana",
-            "linkedin": "https://linkedin.com/in/sanjana-bafana-722720194",
-            # Replace with the actual path or URL
-            "photo": "https://avatars.githubusercontent.com/u/128772250?v=4"
         }
     ]
 
@@ -259,9 +261,11 @@ elif st.session_state['current_page'] == 'Detection':
     st.markdown("<br>", unsafe_allow_html=True)
     st.subheader('Helps to detect Teams and Football')
     st.write('''
-             This is how the result set looks like when you upload your video.
-             The result will be in the form of video,it's just a reference image.''')
-    st.image('https://github.comrsturka/Object-Detection-IN-FIFA-GAME/blob/master/Image/Denote.jpg?raw=true',use_column_width=True)
+             It's just a reference Image, This is how the result set looks like when you upload your video.
+             The result will be in the form of video, where you will see red boxes for Manchester United (Team A), Cyan for PSG (Team B) and Green box for football.
+             This work just like humans pretty much accurate but some get confused like us, and can be Deceived as we are working on the exceptional cases.''')
+    
+    st.image('https://github.com/rsturka/Object-Detection-IN-FIFA-GAME/blob/master/Image/Denote.jpg?raw=true',use_column_width=True)
     # Enter a some space
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
