@@ -383,10 +383,8 @@ elif st.session_state['current_page'] == 'Detection':
                 "Share your detected video on LinkedIn and don't forget to tag us along with our partners for more visibility!")
             st.markdown("""
             Don't forget to tag us in your post:
-            - @Sanjana Bafana
-            - @Harshad Gaikwad
-            - @Nitin Diwakar
             - @Rajbir Singh
+            - @Nitin Diwakar
             
             Just type '@' followed by the profile name in your post on LinkedIn to tag us!
             """)
